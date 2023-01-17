@@ -1,0 +1,503 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header aea start 
+------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav start */
+header nav {
+    width: 83.33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.5vw;
+
+}
+
+header nav h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    margin: 0px;
+
+    color: #3A3A3A;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 2.36vw;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+
+
+    color: #3A3A3A;
+}
+
+/* description start */
+header section.title {
+    width: 83.33vw;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section.title div.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header section.title div.description h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.61vw;
+    line-height: 4.86vw;
+    width: 40.41vw;
+    /* or 135% */
+    margin-bottom: 1.11vw;
+
+
+    color: #3A3A3A;
+}
+
+header section.title div.description article {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+    font-feature-settings: 'liga' off;
+    width: 35vw;
+    margin-bottom: 1.12vw;
+    color: #3A3A3A
+}
+
+header section.title div.description button {
+    width: 13.61vw;
+    height: 3.05vw;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: #E02C6D;
+    border-radius: 41px;
+}
+
+/* camera image start */
+header section.title div.image {
+    background: url(./image/images/main-camera.png);
+    background-repeat: no-repeat;
+    width: 30.5vw;
+    background-size: 100%;
+    height: 28.75vw;
+    margin-top: 5.55vw;
+}
+
+/* brand spnsore start */
+header section.brand {
+    width: 77.08vw;
+    height: 7.63vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    margin-top: 6.94vw;
+}
+
+
+
+/* main start
+------------ */
+
+/*populer_content start */
+main section.populer_content {
+    width: 83.33vw;
+
+}
+
+main section.populer_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.94vw;
+    line-height: 4.86vw;
+    /* identical to box height, or 250% */
+    text-align: center;
+
+    color: #3A3A3A;
+}
+
+main section.populer_content section.grid {
+    width: 77.08vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2.08vw;
+    margin: 0 auto;
+}
+
+main section.populer_content section.grid div {
+    box-shadow: 5px 5px 25px rgb(219, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.97vw;
+}
+
+main section.populer_content section.grid div img {
+    width: 21.99vw;
+    height: 17.78vw;
+    margin-bottom: 1.11vw;
+}
+
+main section.populer_content section.grid div h2 {
+    margin-top: 0px;
+    margin-bottom: 0.41vw;
+}
+
+main section.populer_content section.grid div p {
+    width: 13.61vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.97vw;
+    margin: 0px;
+    color: #787885;
+}
+
+main section.populer_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.11vw;
+
+    /* identical to box height */
+    text-align: end;
+    width: 77.10vw;
+    margin-top: 3.47vw;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+
+/* featured */
+main section.featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.94vw;
+    margin-bottom: 6.94vw;
+}
+
+main section.featured div.img {
+    background: url(./image/images/gear.png);
+    width: 29.06vw;
+    height: 18.75vw;
+
+}
+
+main section.featured div.text {
+    width: 42.36vw;
+    height: 15.56vw;
+}
+
+main section.featured div.text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.63vw;
+    line-height: 4.167vw;
+    /* identical to box height, or 158% */
+    margin-bottom: 1.11vw;
+    margin-top: 0px;
+
+    color: #0A0826;
+}
+
+main section.featured div.text article {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.11vw;
+    line-height: 1.94vw;
+    /* or 175% */
+    margin-bottom: 1.11vw;
+
+    color: #6C6C6C;
+}
+
+main section.featured div.text button {
+    width: 10.76vw;
+    height: 3.05vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+    /* identical to box height */
+    border: none;
+
+    color: #FFFFFF;
+
+    background: #E02C6D;
+}
+
+
+/* footer
+---------------- */
+footer {
+    background-color: #0A0826;
+    width: 100%;
+    padding: 3.47vw 0px;
+
+}
+
+footer h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.67w;
+    line-height: 2.5vw;
+    text-align: center;
+    /* identical to box height */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Text / Gray 300 */
+
+    color: #D9DBE1;
+}
+
+
+
+@media screen and (max-width:576px) {
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    header nav ul {
+        padding-left: 0px;
+    }
+
+    header section.brand {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 20px;
+    }
+
+    header nav h2 {
+        font-size: 5vw;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 1.90vw;
+    }
+
+    header section.brand img {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    main section.populer_content section.grid {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    main section.populer_content section.grid div img {
+        width: 74.99vw;
+        height: 49.78vw;
+    }
+
+    main section.featured {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    main section.featured div.img {
+        height: 60vw;
+        width: 80vw;
+        background-repeat: no-repeat;
+        background-position: left center;
+
+    }
+
+    header section.title {
+        flex-direction: column-reverse;
+    }
+
+    header section.title div.image {
+        width: 41.5vw;
+        background-size: 100%;
+        height: 40.75vw;
+    }
+
+    header section.title div.description h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.61vw;
+        line-height: 5.86vw;
+        width: 70.41vw;
+        margin-bottom: 2.11vw;
+        color: #3A3A3A;
+    }
+
+
+    header section.title div.description article {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.11vw;
+        line-height: 2.67vw;
+        font-feature-settings: 'liga' off;
+        width: 52vw;
+        margin-bottom: 1.12vw;
+        color: #3A3A3A;
+    }
+
+    header section.title div.description button {
+        width: 63.61vw;
+        height: 5.05vw;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.11vw;
+        line-height: 1.67vw;
+        color: #FFFFFF;
+        background: #E02C6D;
+        border-radius: 41px;
+
+    }
+
+    main section.populer_content>h2 {
+        font-size: 5.94vw;
+
+    }
+
+    main section.populer_content h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.94vw;
+        line-height: 6.86vw;
+        text-align: center;
+        color: #3A3A3A;
+    }
+
+
+    main section.populer_content section.grid div p {
+        width: 47.61vw;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.97vw;
+        margin: 0px;
+        color: #787885;
+    }
+
+    main section.populer_content section.grid div p {
+        line-height: 6vw;
+    }
+
+    main section.populer_content p {
+        font-size: 3.11vw;
+    }
+
+    main section.featured div.text h1 {
+        font-size: 4.60vw;
+        line-height: 5.167vw;
+    }
+
+    main section.featured div.text {
+        width: 56.36vw;
+    }
+
+
+    main section.featured div.text article {
+        font-size: 1.90vw;
+        line-height: 2.94vw;
+    }
+
+    main section.featured {
+        margin-bottom: 15vw;
+    }
+
+    footer p {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    header nav ul li {
+        margin-right: 2.5vw;
+    }
+
+    header section.title div.description article {
+        margin-bottom: 2.12vw;
+    }
+
+    main section.featured div.text button {
+        width: 73.76vw;
+        height: 4.05vw;
+        font-size: 2vw;
+    }
+
+
+
+}
