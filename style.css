@@ -488,7 +488,7 @@ footer p {
     main section.featured div.text h1 {
         margin-top: 5vw;
         margin-bottom: 4.11vw;
-      
+
 
         line-height: 9.167vw;
         font-size: 7.63vw;
@@ -500,6 +500,7 @@ footer p {
         font-weight: 500;
         margin-bottom: 4vw;
     }
+
 
     main section.featured div.text button {
         width: 87.76vw;
@@ -518,5 +519,100 @@ footer p {
         line-height: 4.1vw;
     }
 
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    header nav {
+        margin-top: 10.5vw;
+    }
+
+    header nav h2 {
+        font-size: 6vw;
+    }
+
+    .fa-bars:before,
+    .fa-navicon:before {
+        font-size: 4vw;
+    }
+
+    header section.title div.image {
+        height: 47.75vw;
+        margin-top: 5.55vw;
+        width: 33.5vw;
+    }
+
+    header section.title div.description h1 {
+        font-size: 4.50vw;
+        line-height: 5vw;
+        margin-bottom: 2vw;
+        width: 49.41vw;
+    }
+
+    header section.title div.description article {
+        color: #7a7878;
+        font-size: 2.11vw;
+        line-height: 2.5vw;
+        font-weight: 500;
+        margin-bottom: 2vw;
+
+    }
+
+    header section.title div.description button {
+        width: 43.61vw;
+        height: 6.05vw;
+        font-size: 2.11vw;
+    }
+
+
+    header section.brand {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr;
+        height: auto;
+        margin-bottom: 7vw;
+    }
+
+    header section.brand img {
+
+        margin: 2vw auto;
+        width: 17vw;
+
+    }
+
+    main section.populer_content h2 {
+        font-size: 5.94vw;
+    }
+
+    main section.populer_content {
+        width: 90.33vw;
+    }
+
+    main section.populer_content section.grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    main section.populer_content section.grid div {
+        padding: 2.97vw;
+    }
+
+    main section.populer_content section.grid div img {
+        width: 37.99vw;
+        height: 23.78vw;
+        margin-bottom: 4.11vw;
+    }
+
+    main section.populer_content h2 {
+        font-size: 4.2vw;
+    }
+
+    main section.populer_content section.grid div p {
+        text-align: left;
+        font-size: 2.5vw;
+        width: 36.61vw;
+        font-weight: 400;
+        font-size: 2vw;
+        font-family: "Poppins";
+    }
 
 }
