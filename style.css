@@ -46,6 +46,32 @@ header nav ul {
 
 }
 
+header nav #mm {
+    display: none;
+    margin-right: 3.47vw;
+}
+
+/* collapse start*/
+header .collapse {
+    display: none;
+    margin-top: 8vw;
+    padding-left: 0px;
+}
+
+header .collapse li {
+    list-style: none;
+    margin-bottom: 4vw;
+
+}
+
+header .collapse li a {
+    text-decoration: none;
+    color: #6C6C6C;
+    font-family: "Poppins";
+}
+
+/* collapse end*/
+
 header nav ul li {
     list-style: none;
     margin-left: 2.36vw;
@@ -327,15 +353,16 @@ footer p {
     /* header nav start */
     header nav {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: space-between;
         align-items: center;
         width: 100vw;
+        margin-top: 12.5vw;
     }
 
     header nav h2 {
         margin: 16px;
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     header nav ul {
@@ -355,30 +382,30 @@ footer p {
     }
 
     header section.title div.image {
-        width: 46.5vw;
-        height: 45.75vw;
+        width: 53.5vw;
+        height: 53.75vw;
 
     }
 
     header section.title div.description h1 {
-        font-size: 5.61vw;
-        line-height: 6.86vw;
-        width: 68.41vw;
+        font-size: 8.61vw;
+        line-height: 10.86vw;
+        width: 90.41vw;
         margin-bottom: 3.11vw;
     }
 
     header section.title div.description article {
-        line-height: 3vw;
-        font-size: 2.11vw;
+        line-height: 4vw;
+        font-size: 3.11vw;
         color: #6c6c6c;
-        width: 58vw;
+        width: 88vw;
     }
 
     header section.title div.description button {
-        width: 62.61vw;
-        height: 5.05vw;
-        font-size: 2.11vw;
-        margin-top: 1.91vw;
+        width: 89.61vw;
+        height: 10.05vw;
+        font-size: 4vw;
+        margin-top: 3.91vw;
     }
 
     /* brand spnsore start */
@@ -402,8 +429,8 @@ footer p {
 
     /* main section.populer_content h2 */
     main section.populer_content h2 {
-        font-size: 5.94vw;
-        margin-bottom: 8.41vw;
+        font-size: 6.94vw;
+        margin-bottom: 5.41vw;
     }
 
     main section.populer_content section.grid {
@@ -420,7 +447,7 @@ footer p {
     main section.populer_content section.grid div img {
         width: 64.99vw;
         height: 37.78vw;
-        margin-bottom: 5.11vw;
+        margin-bottom: 7.11vw;
     }
 
     main section.populer_content h2 {
@@ -432,7 +459,10 @@ footer p {
         font-size: 2.97vw;
         width: 49vw;
         text-align: start;
-        margin-top: 5vw;
+        font-family: "Poppins";
+        margin-top: 4vw;
+        font-weight: 400;
+        line-height: 4vw;
     }
 
     main section.populer_content p {
@@ -442,44 +472,48 @@ footer p {
     main section.featured {
         margin-top: 15.94vw;
         flex-direction: column;
+        width: 100%;
     }
 
     main section.featured div.img {
-        width: 72vw;
-        height: 47.75vw;
+        width: 90vw;
+        height: 55.75vw;
     }
 
     main section.featured div.text {
-        width: 73.36vw;
+        width: 89.36vw;
         height: auto;
     }
 
     main section.featured div.text h1 {
         margin-top: 5vw;
         margin-bottom: 4.11vw;
+      
 
-        line-height: 5.167vw;
-
-        font-size: 4.63vw;
+        line-height: 9.167vw;
+        font-size: 7.63vw;
     }
-    main section.featured div.text article{
-        line-height: 3vw;
-        font-size: 2.11vw;
+
+    main section.featured div.text article {
+        line-height: 3.7vw;
+        font-size: 2.6vw;
         font-weight: 500;
         margin-bottom: 4vw;
     }
-    main section.featured div.text button{
-        width: 73.76vw;
-        height: 6.05vw;
-        font-size: 2.11vw;
+
+    main section.featured div.text button {
+        width: 87.76vw;
+        height: 9.05vw;
+        font-size: 3.11vw;
     }
 
 
     /* footer p */
-    footer h3{
+    footer h3 {
         font-size: 6.63vw;
     }
-    footer p{
+
+    footer p {
         font-size: 1.76vw;
         line-height: 4.1vw;
     }
